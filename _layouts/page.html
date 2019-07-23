@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<section id="inner-description" class="section inner-description">
+    <div class="container">
+        {{ content }}
+    </div>
+</section>
+
+{% if page.contact %}
+{% include contactMe.html %}
+{% endif %}
