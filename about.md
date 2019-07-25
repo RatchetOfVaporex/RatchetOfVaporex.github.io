@@ -4,7 +4,7 @@ layout: page
 contact: true
 ---
 
-<div class="col-md-10 col-md-offset-1 text-center" markdown="1"> <img src="/images/designer-pic.jpg" alt="Mafolio">
+<div class="col-md-10 col-md-offset-1 text-center" markdown="1"> <img src="/images/headshot.jpg" alt="Mafolio">
 
 # Thomas Ha&#778;kanson
 
