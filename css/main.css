@@ -450,7 +450,8 @@ ul li {
 }
 
 .work h5, .work p {
-    color: #fff;
+    color: #fff !important;
+    font-size: 14px !important;
     margin: 0;
     opacity: 0;
 }

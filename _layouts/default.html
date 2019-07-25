@@ -34,7 +34,11 @@
                     <h1>Thomas Ha&#778;kanson</h1>
                     <p>I compose what some people would call "music"</p>
                     {% else %}
+                    {% if page.layout == "work" %}
+                    <p>{{ page.title }} ({{page.year}})</p>
+                    {% else %}
                     <p>{{ page.title }}</p>
+                    {% endif %}
                     {% endif %}
                     <!-- banner text -->
                 </div>
