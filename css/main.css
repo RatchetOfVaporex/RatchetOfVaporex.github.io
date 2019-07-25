@@ -13,6 +13,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto%20Slab:300,400,500,600,700);
 
+* {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
 p {
     font-size: 14px;
     line-height: 22.4px;
@@ -224,7 +230,7 @@ ul li {
 }
 
 .nav-toggle:before {
-    background-color: #4b1685;
+    background-color: #3bc492;
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
@@ -236,7 +242,7 @@ ul li {
 }
 
 .nav-toggle:after {
-    background-color: #4b1685;
+    background-color: #3bc492;
     -moz-transform: scale(0);
     -ms-transform: scale(0);
     -webkit-transform: scale(0);
@@ -379,23 +385,40 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Works
 -------------------------------------------------------------------------------*/
+#works h2 {
+    text-align: center;
+}
+
 .work {
     -moz-box-shadow: 0 0 0 1px #fff;
     -webkit-box-shadow: 0 0 0 1px #fff;
     box-shadow: 0 0 0 1px #fff;
+    position: relative;
 
     overflow: hidden;
     position: relative;
     visibility: hidden;
+    height: 200px;
+    background-color: #e84545;
 }
 
-.work img {
+.work a {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work a h3 {
+    color: white;
 }
 
 .work .overlay {
-    background: rgba(64, 35, 97, 0.9);
+    background: rgba(59, 196, 146, 0.9);
     height: 100%;
     left: 0;
     opacity: 0;
@@ -445,13 +468,6 @@ ul li {
     -ms-transform: translate3d(0, 200%, 0);
     -webkit-transform: translate3d(0, 200%, 0);
     transform: translate3d(0, 200%, 0);
-}
-
-.work-box:hover img {
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
 }
 
 .work-box:hover .overlay {

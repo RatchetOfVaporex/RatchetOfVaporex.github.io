@@ -1,0 +1,10 @@
+---
+layout: page
+---
+
+{% for work in site.data.portfolio %}
+{% if work.title == page.title %}
+{{ work.soundcloudEmbed }}
+{{ content }}
+{% endif %}
+{% endfor %}
