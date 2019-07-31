@@ -4,9 +4,14 @@ layout: page
 
 {% for work in site.data.portfolio %}
 {% if work.title == page.title %}
-{{ work.soundcloudEmbed }}
+<div class="text-center">
+    {% for embed in work.embeds %}
+    {{ embed[1] }}
+    {% endfor %}
+</div>
 <div class="col-md-10 col-md-offset-1 space">
     {{ content }}
+    <p>&nbsp;</p>
 </div>
 {% if work.purchaseURL %}
 <div class="text-center">

@@ -1,5 +1,5 @@
 ---
-title: Test Music
+title: Test Music Piece
 year: 2019
 layout: work
 ---

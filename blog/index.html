@@ -1,0 +1,24 @@
+---
+layout: page
+title: Blog
+---
+<div class="col-md-8 col-md-offset-2 space blog-page">
+    {% for post in site.posts %}
+    <div class="article{% if forloop.first %} firstArticle{% endif %}" id="{{ post.url | downcase | remove: '/blog/'}}">
+        <a href="{{ post.url }}" class="noStyle">
+            <div class="titleHolder" style="background-image: url('/Blog/resources/titlePics/{{ post.title }}.png')">
+                <h2>{{ post.title }}</h2>
+            </div>
+        </a>
+        {% if post.image %}
+        <img src="{{ post.image }}">
+        <br>
+        {% endif %}
+        Posted on {{ post.time }}
+        <br>
+        <br>
+        {{ post.excerpt }}
+        <a href="{{ post.url }}" class="continueReading noColor">Continue Reading &#10095;</a>
+    </div>
+    {% endfor %}
+</div>

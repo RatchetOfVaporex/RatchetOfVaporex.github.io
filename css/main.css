@@ -728,3 +728,11 @@ ul li {
     font-size: 17px;
     font-weight: 700;
 }
+
+.blog-content img,
+.blog-page img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 0 !important;
+    display: block;
+}
