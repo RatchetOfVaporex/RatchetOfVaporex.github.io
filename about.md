@@ -4,7 +4,7 @@ layout: page
 contact: true
 ---
 
-<div class="col-md-10 col-md-offset-1 text-center" markdown="1"> <img src="/images/headshot.jpg" alt="Mafolio">
+<div class="col-md-10 col-md-offset-1 text-center" markdown="1"> <img src="/images/Portrait.jpg" alt="Mafolio">
 
 # Thomas Håkanson
 
@@ -19,7 +19,7 @@ I've had the privilege of working with numerous ensembles throughout the years. 
 
 I'm not just limited in my compositional endeavors. I'm an avid coder, and I helped build this very own website with the help of Nick Mazuk. I've also coded up some web toys, some things that dare never make it onto the international stage lest I be chastized for it in the future. I also consider myself an avid writer. I have a blog where I post personal thoughts and short stories, one of which you can view <a href="/Third_Eye_Of_The_Storm">here.</a>
 
-Again, thank you once more for checking me out! Links to my social media are below.
+Thank you once more for checking me out! Links to my social media are below.
 
 <!--<a href="/faq">See my FAQ!!!!!!!!!!!</a>-->
 
