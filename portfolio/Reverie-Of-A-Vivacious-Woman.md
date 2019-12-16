@@ -6,7 +6,7 @@ year: 2019
 
 ### Reverie of a Vivacious Woman (2019)
 ### For Solo Flute
-## Price: $20
+### Price: $16.99
 
 <br>
 ### Program Notes

@@ -41,8 +41,9 @@ h3 {
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 18px;
     color: #2d3033;
+    text-transform: uppercase;
     font-weight: bold;
 }
 
@@ -441,11 +442,19 @@ ul li {
     transform: translateY(-50%);
 }
 
-.work h5, .work p, .work img {
+.work h4, .work h5, .work p, .work img {
     -moz-transition: all, 0.5s;
     -o-transition: all, 0.5s;
     -webkit-transition: all, 0.5s;
     transition: all, 0.5s;
+}
+
+
+.work h4, .work p {
+    color: #fff !important;
+    font-size: 18px !important;
+    margin: 0;
+    opacity: 0;
 }
 
 .work h5, .work p {
@@ -455,7 +464,7 @@ ul li {
     opacity: 0;
 }
 
-.work h5 {
+.work h4, .work h5 {
     margin-bottom: 5px;
     -moz-transform: translate3d(0, -200%, 0);
     -ms-transform: translate3d(0, -200%, 0);
@@ -474,13 +483,14 @@ ul li {
     opacity: 1;
 }
 
-.work-box:hover .overlay h5, .work-box:hover .overlay p {
+.work-box:hover .overlay h4, .work-box:hover .overlay h5, .work-box:hover .overlay p {
     opacity: 1;
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
 
 /* ------------------------------------------------------------------------------
 	Work animation
