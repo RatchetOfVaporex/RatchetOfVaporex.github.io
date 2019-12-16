@@ -5,7 +5,7 @@ layout: page
 
 <div class="col-md-10 col-md-offset-1 text-center" markdown="1">
 
-Want to get in touch? Great! Send me an email down below. I can't guarantee that I can respond or read all of your emails, but I will do my best to get back to you as soon as possible.
+Want to get in touch? Great! Send me an email down below. I can't guarantee that I can respond or read all of your emails, but I will do my best to get back to you as soon as possible.    
 
 <!--contact form start-->
 <div class="col-md-6 col-md-offset-3 conForm">
