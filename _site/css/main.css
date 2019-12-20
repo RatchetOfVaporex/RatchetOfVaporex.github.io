@@ -41,9 +41,8 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 22px;
     color: #2d3033;
-    text-transform: uppercase;
     font-weight: bold;
 }
 
@@ -394,10 +393,10 @@ ul li {
     -webkit-box-shadow: 0 0 0 1px #fff;
     box-shadow: 0 0 0 1px #fff;
     position: relative;
-
     overflow: hidden;
     position: relative;
     visibility: hidden;
+    box-sizing: border-box;
     height: 200px;
     background-color: #e84545;
 }
@@ -413,8 +412,12 @@ ul li {
     align-items: center;
 }
 
-.work a h3 {
+.work a h3, .work a h4, .work a h5, .work a p {
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
     color: white;
+    text-align: center;
 }
 
 .work .overlay {
@@ -449,17 +452,9 @@ ul li {
     transition: all, 0.5s;
 }
 
-
 .work h4, .work p {
     color: #fff !important;
     font-size: 18px !important;
-    margin: 0;
-    opacity: 0;
-}
-
-.work h5, .work p {
-    color: #fff !important;
-    font-size: 14px !important;
     margin: 0;
     opacity: 0;
 }
@@ -490,7 +485,6 @@ ul li {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
-
 
 /* ------------------------------------------------------------------------------
 	Work animation

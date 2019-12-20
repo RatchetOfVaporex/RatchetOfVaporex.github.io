@@ -4,22 +4,4 @@ title: Portfolio
 contact: true
 ---
 
-<section id="works" class="works section no-padding">
-    <div class="container-fluid">
-        <div class="row no-gutter">
-            {% for work in site.data.portfolio %}
-            <div class="col-lg-3 col-md-6 col-sm-6 work">
-                <a href="/portfolio/{{ work.title | replace: " ", "-" }}" class="work-box">
-                    <h3>{{ work.title }}</h3>
-                    <div class="overlay">
-                        <div class="overlay-caption">
-                            <h5>{{ work.title }}</h5>
-                            <p>{{ work.year }}</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% include works.html %}
